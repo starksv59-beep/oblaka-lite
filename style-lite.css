@@ -40,7 +40,7 @@ main { max-width: var(--wrap); margin: 0 auto; padding: 0 var(--gut); }
 .s-hero { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: clamp(28px, 5vw, 72px); align-items: center;
   padding: clamp(28px, 6vw, 72px) 0 clamp(32px, 5vw, 56px); }
 .s-eyebrow { font-size: .8rem; letter-spacing: .12em; text-transform: uppercase; color: var(--c-ink-soft); margin-bottom: 18px; }
-.s-hero h1 { font-size: calc(clamp(2.1rem, 4.6vw, 3.9rem) * var(--h1k, 1)); overflow-wrap: break-word; hyphens: auto; }
+.s-hero h1 { font-size: calc(clamp(2.1rem, 4.6vw, 3.9rem) * var(--h1k, 1)); overflow-wrap: break-word; hyphens: manual; }
 .s-lead { margin-top: 20px; font-size: 1.1rem; color: var(--c-ink-soft); max-width: 34em; }
 .s-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 22px; margin-top: 30px; }
 .s-hero__img { margin: 0; }
@@ -80,7 +80,7 @@ main { max-width: var(--wrap); margin: 0 auto; padding: 0 var(--gut); }
 .s-steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr)); gap: 24px; }
 .s-steps__item { border-top: 2px solid var(--c-accent); padding-top: 16px; }
 .s-steps__n { font: 600 .82rem var(--f-text); color: var(--c-ink-soft); letter-spacing: .08em; }
-.s-steps h3 { font-size: 1.12rem; margin-top: 10px; overflow-wrap: anywhere; hyphens: auto; }
+.s-steps h3 { font-size: 1.12rem; margin-top: 10px; overflow-wrap: anywhere; hyphens: manual; }
 .s-steps__item { min-width: 0; }
 .s-steps p { margin-top: 8px; color: var(--c-ink-soft); font-size: .95rem; }
 
